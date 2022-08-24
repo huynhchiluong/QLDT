@@ -1,0 +1,98 @@
+
+#header{
+    top: 0; 
+    width: 100%;
+    height: 7%;
+    background: rgba(163, 11, 11, 0.829);
+    backdrop-filter: saturate(180%) blur(20px);
+    position: fixed;
+    
+    z-index: 6;
+}
+#header a{
+    text-decoration: none;
+    margin: auto;
+    padding: 3%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.navbar{
+    width: 80%;
+    height: 100%;
+    margin: auto; 
+}
+#header .navbar .list-item-nav{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+}
+#header .navbar .list-item-nav .item-nav{
+    width: 20%;
+    height: 80%;
+    margin:auto;
+    list-style: none;
+    text-align: center;
+}
+#header .navbar .list-item-nav .dropdown{
+    width: 100%;
+    height: 132%;
+    margin:auto;
+    list-style: none;
+    text-align: center;
+}
+
+.result 
+{
+    width: 140%;
+    height: 100%;
+    background: rgba(33, 102, 67, 0.9);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom-right-radius: 40px;
+}
+#header .navbar .list-item-nav .item-nav input{
+    margin-bottom: 9%;
+}
+#header .navbar .list-item-nav .item-nav a:hover{
+    transition: all 0.7s;
+    color: gray;
+}
+
+#header .navbar .list-item-nav #dropdown .list-phone ul li{
+    list-style: none;
+    height: 100%;
+}
+#header .navbar .list-item-nav #dropdown .list-phone{
+    display: block;
+    background-color:black;
+}
+#header .navbar .list-item-nav #dropdown .list-phone {  
+    visibility: hidden;
+    width: 150%;
+    height: auto;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom-right-radius: 40px;
+}
+#header .navbar .list-item-nav #dropdown .list-phone ul{
+    padding: 0;
+}
+/*Xử lý dropdown*/
+#header .navbar .list-item-nav #dropdown:hover .list-phone{
+    visibility: visible;
+    display: block; 
+}#header .navbar .list-item-nav #dropdown:hover .list-phone ul li a{
+    padding-left: 10%;
+    text-align: left;
+    transition: all 0.7s;
+}
+#header .navbar .list-item-nav #dropdown:hover .list-phone ul li a:hover{
+    transform: translateX(20px);
+}
+

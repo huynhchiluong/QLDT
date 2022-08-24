@@ -1,0 +1,115 @@
+
+body{
+    background-color: #eedcdc;
+}
+.main{
+    width: 90%;
+    height: 100%;
+    background-color: #cabcbc;
+    margin: auto;
+    display: flex;
+}
+.main .infbill {
+    width: 49.5%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+    margin-top: 0px;
+}
+.main .infcus {
+    width: 49.5%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    margin-top: 0px;
+}
+.main .infbill h1 {
+    font-size: 100%;
+    margin-left: 3%;
+    height: 40px;
+}
+.main .infbill .pro{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    border-top: 1px solid #e5e5e5;
+}
+.main .infbill .sum-price{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    margin-top: 5%;
+}
+.main .infbill .pay{
+    width: 100%;
+    height: 10%;
+}
+
+.main .infbill .pro .img{
+    width: 20%;
+    height: 20%;
+    margin-top: 2%;
+}
+.main .infbill .pro .infm{
+    width: 65%;
+    height: 20%;
+    margin-top: 2%;
+}
+.main .infbill .pro .price{
+    width: 40%;
+    height: 20%;
+    margin-top: 30px;
+}
+.main .infbill .pro .img img{
+    width: 80%;
+    margin-left: 12%;
+    height: 100%;
+}
+.main .infbill .pro .infm h4{
+ color: red;
+}
+.main .infbill .pro .infm .sl{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+.main .infbill .pro .infm .sl p{
+    margin-top: 0px;
+    margin-left: 5px;
+
+}
+.main .infbill .sum-price b {
+    margin-left: 10%;
+}
+.main .infbill .sum-price h4 {
+    margin-top: 0%;
+    margin-left: 37%;
+}
+.main .infbill .pay button{
+    width: 50%;
+    height: 40px;
+    color: white;
+    margin: 5% 5% 5% 25%;
+    background-color: blue;
+    border-radius: 5px 5px;
+}
+
+.main .infcus h1{
+    font-size: 25px;
+    margin-left: 3%;
+    height: 40px;
+}
+.main .infcus .cus{
+    height: 90%;
+    margin:  0% 5% 10% 0%;
+}
+.main .infcus .cus p
+{
+    margin-left: 5%;
+}
+.main .infcus .cus input {
+    width:70% ;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 10%;
+}

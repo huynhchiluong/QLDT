@@ -1,0 +1,67 @@
+.main {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+  .breadcrumb{
+    width: 500px  ;
+    height: 10%;
+    margin-top: 70px;
+    display: flex;
+  }
+  .bando #map{
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+  }
+  .info{
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 10%;
+  }
+  .breadcrumb .home {
+    width: 20%;
+    height: 100%;
+    display: flex;
+  }
+  .breadcrumb .Type{
+    width: 20%;
+    height: 100%;
+    display: flex;
+  }
+  .breadcrumb   a{
+    width: 80%;
+    height: 100%;
+    font-size: 100%;
+    margin: auto;
+    text-decoration: none;
+    color: blue;
+  }
+  .breadcrumb   a:hover{
+      color: red;
+  }
+  .breadcrumb  span{
+    width: 20%;
+    height: 100%;
+    font-size: 100%;
+    margin: auto;
+  }
+  .breadcrumb p {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    margin: auto;
+  }
+  .info .tt{
+      display: flex;
+  }
+  .info  h1{
+      color: blue;
+      margin-left: 5%;
+  }
+  .info .tt .tv{
+      margin-left: 5%;
+  }
+  .info .tt .tv h3{
+      color: red;
+  }  

@@ -1,0 +1,467 @@
+.content
+{
+
+  width : 80%; 
+  margin: 5% auto;
+  background-color:white;
+  box-shadow: 2px 2px 20px;
+  display: block;
+}
+.content .row_1
+{
+  width: 100%;
+  height: 22%;
+  display: flex;
+  margin: 1% 0;
+}
+.content .row_2
+{
+  width: 100%;
+  margin-top: 0.2%;
+  display: block;
+}
+.content .row_2 img
+{
+  width: 100%;
+  height: 100%;
+}
+.content .row_1 #demo 
+{
+    width: 67%;
+    height: 100%;
+    z-index: 1;   
+    display:block;
+}
+
+.content .row_1 #demo .carousel-inner
+{
+  width: 100%;
+  position: relative;
+  
+}
+
+
+.content .row_1 #demo .carousel-indicators
+{
+  position: absolute;
+  z-index: 6;
+}
+.content .row_1 #demo .carousel-control-prev
+{
+  width: 10%;
+  position: absolute;
+}
+.content .row_1 #demo .carousel-control-next
+{
+  width: 10%;
+  position: absolute;
+}
+.content .row1 #demo .carousel-inner .carousel-item 
+{
+  height: 100%;
+  width: 100%;
+}
+.content .row1 #demo .carousel-inner .carousel-item img
+{
+  height: 100%;
+  width: 100%;
+}
+
+
+.content .row_1 .advertisement
+{
+    width: 32%; 
+    height: 100%;
+    display: block;
+    margin-left:5px ;
+    
+}
+
+
+
+.content .row_1 .advertisement .marquee
+{
+  width: 100%;
+  height: 10%;
+  padding: 5px;
+  display : flex; 
+}
+.advertisement .marquee marquee
+{
+  height: 20px;
+}
+.advertisement .marquee .col_1
+{
+  width : 30%; 
+}
+.advertisement .marquee .col_2
+{
+  width: 70%;
+}
+.advertisement .ad_1 
+{
+ 
+  width: 100%;
+  height: 45%;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 5px;
+
+}
+.advertisement .ad_2 
+{
+  width: 100%;
+  height: 45%;
+}
+.advertisement .ad_2 img
+{
+  width: 100%;
+  height: 100%;
+}
+.advertisement .ad_1 .col_1
+{
+  width: 40%;
+  height: 100%;
+}
+.advertisement .ad_1 .col_1 .img_1
+{
+  
+  width: 100%;
+  height: 100%;
+
+ 
+}
+
+.advertisement .ad_1 .col_2
+{
+  width: 60%;
+  height:  100%;
+  display: grid;
+  margin-left: 10px;
+}
+.advertisement .ad_1 .col_2 .row_3
+{
+  font-size: 130%;
+  width: 100%;
+  height: 70%;
+ 
+  }
+.advertisement .ad_1 .col_2 .row_4
+{
+  font-size: 14px;
+  width: 100%;
+  height: 30%;
+}
+.carousel-inner .item 
+{
+  width: 100%;
+  height: 100%;
+}
+.content .inner 
+{
+  width: 100%;
+  height: 25%;
+  margin-top: 0.2%;
+  display: block;
+}
+.content .inner .Tieude_1
+{
+  width: 100%;
+  height: 15%;
+  display: flex;
+}
+.content .inner .Tieude_1 .Chude
+{
+  width: 50%;
+}
+.content .inner .Tieude_1 .Chude p
+{
+    width: 100%;
+    height: 100%;
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 150%;
+    color: brown;
+}
+.content .inner .Tieude_1 .Thoigian
+{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding-right: 0;
+  padding-top: 1%;
+}
+.content .inner .Tieude_1 .Thoigian i 
+{
+    font-size: 150%;
+    width: 30%;
+    text-align: right;
+    padding-top: 1%; 
+    padding-right: 1%;
+
+}
+.content .inner .Tieude_1 .Thoigian #time
+{
+  width: 70%;
+  font-size: 150%;
+  color:red;
+  font-weight: bolder;
+  text-align: right;
+  padding-right: 3%;
+}
+/* san pham hoi nhat*/
+.inner .Sanpham_Khuyenmaihotnhat
+{
+  width: 100%;
+  height: 85%;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transform: translate3d(0px,0px,0px);
+  transition: 1s;
+  box-sizing: border-box;
+  font-weight: 300px;
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item
+{
+  position: relative;
+  box-sizing: border-box;
+  display: block; 
+  line-height: 1,6em;
+  width: 20%;
+  height: 100%;
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item:hover
+{
+  border: 1px solid red;
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .item
+{
+  width: 100%;
+  height: 100%;
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .product-item 
+{
+  width: 100%;
+  height: 100%;
+  background-color:white;
+  display: block;
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .item .product-item .product-item-img
+{
+  width: 100%;
+  height: 80%;
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .item .product-item .product-item-img a
+{
+  width: 100%;
+  height: 100%;
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .item .product-item .product-item-img a img
+{
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin: auto;
+
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .item .product-item .product-item-img a img:hover
+{
+   transform: scaleZ(1.2);
+}
+
+
+
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .item .product-item .product-item-info
+{
+  width: 100%;
+  height: 20%;
+  display: block;
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .item .product-item .product-item-info .product-title
+{
+  width: 100%;
+  height: 50%;
+ 
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .item .product-item .product-item-info .product-title a
+{
+  width: 100%;
+  color:#23527c;
+  font: 150%;
+  display: block;
+  text-align: center;  
+  height: 100%;
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .item .product-item .product-item-info .product-price
+{
+  width: 100%;
+  height: 50%; 
+  display: flex;
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .item .product-item .product-item-info .product-price span
+{
+  width: 50%;
+  font-size: 100%;
+  margin-left: 10%;
+  height: 100%;
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .item .product-item .product-item-info .product-price .gia-moi
+{
+  color: red; 
+  font-size: 150%;
+  display: block;
+  text-align: center;
+  
+}
+.inner .Sanpham_Khuyenmaihotnhat .owl-stage .owl-item .item .product-item .product-item-info .product-price .gia-cu
+{
+  text-decoration:line-through;
+  font-size: 120%;
+  display: block;
+  text-align: center;
+}
+
+
+
+/* inner_1  */
+.content .inner_1 
+{
+  width: 100%;
+  height: 25%; 
+  background-color: blanchedalmond;
+  display: block;
+}
+.content .inner_1 .head
+{
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+.content .inner_1 .head .tittle 
+{
+  width: 50%;
+  height: 100%;
+}
+.content .inner_1 .head .tittle h3
+{
+  color: brown;
+  margin-left: 5%;
+}
+.content .inner_1 .head .list
+{
+  width: 50%;
+  height: 100%;
+}
+.content .inner_1 .head .list .list_name
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding-right: 5%;
+  font-size: 120%;
+  list-style-type: none;
+}
+.content .inner_1 .head .list .list_name li 
+{
+  margin-left: 4%;
+  margin-top: 3%;
+}
+.content .inner_1 .head .list .list_name li a
+{
+  text-decoration: none;
+}
+
+
+
+.content .inner_1 .products
+{
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.content .inner_1 .products .owl-item 
+{
+  display: block;
+  height: 100%;
+  width: 20%;
+}
+.content .inner_1 .products .owl-item:hover
+{
+  border: 1px solid red;
+}
+.content .inner_1 .products .owl-item .item
+{
+  width: 100%;
+  height: 100%;
+}
+.content .inner_1 .products .owl-item .item .product-item
+{
+  width: 100%;
+  height: 100%;
+  background-color:white;
+  display: block;
+}
+.content .inner_1 .products .owl-item .item .product-item .product-item-img 
+{
+  width: 100%;
+  height: 80%;
+ 
+}
+.content .inner_1 .products .owl-item .item .product-item .product-item-img a
+{
+  width: 100%;
+  height: 100%;
+}
+.content .inner_1 .products .owl-item .item .product-item .product-item-img a img
+{
+  width: 100%;
+  height: 90%;
+  margin: auto;
+  border-radius: 30px;
+
+}
+.content .inner_1 .products .owl-item .item .product-item .product-item-info
+{
+  width: 100%;
+  height: 20%;
+  display: block;
+}
+.content .inner_1 .products .owl-item .item .product-item .product-item-info .product-title
+{
+  width: 100%;
+  height: 50%;
+}
+.content .inner_1 .products .owl-item .item .product-item .product-item-info .product-title a
+{
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  font-size: 110%;
+}
+
+.content .inner_1 .products .owl-item .item .product-item .product-item-info .product-price
+{
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.content .inner_1 .products .owl-item .item .product-item .product-item-info .product-price span
+{
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  font-size: 180%;
+  color: brown;
+}
